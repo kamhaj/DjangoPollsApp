@@ -6,10 +6,10 @@ How to run it:
 
 ``` bash
 # Install dependencies
-pipenv install
+pip install requirements.txt
 
 #change dir
-cd venv/pollster
+cd pollster
 
 # Serve on localhost:8000
 python manage.py runserver <port_no_optionally>
